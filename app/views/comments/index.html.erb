@@ -1,0 +1,12 @@
+<h1><%= @article.title %></h1>
+
+<p><%= @article.body %></p>
+
+<%= link_to "Edit Post", edit_article_path(@article), class: "btn btn-primary" %>
+<%= link_to "Destroy", article_path(@article), class:"btn btn-danger", method: :delete, data: { confirm: "Are you sure?" } %>
+
+<h2>Comments</h2>
+<%= render @article.comments %>
+
+<h2>Add a comment:</h2>
+<%= render 'comments/form' %>
