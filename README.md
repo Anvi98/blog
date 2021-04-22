@@ -1,7 +1,6 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+After learning the basics of Ruby on Rails, we implemented a simple blog to make in practice the CRUD & MVS concepts.
 
 Things you may want to cover:
 
